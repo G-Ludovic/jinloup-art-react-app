@@ -5,3 +5,18 @@
 body {
   margin: 0;
 }
+
+:root {
+  /* 🎨 Couleurs principales */
+  --color-text: #050315;
+  --background-color-primary: #68766C;
+  --background-color-secondary: #93B09C;
+  --primary-color: #0D2013;
+  --secondary-color: #2C5A3A;
+  --color-hover: #4F7159;
+  --background-color-hover: #D5E7DB;
+
+  /* 🖌️ Typography */
+  --font-family-link: 'Raleway', sans-serif;
+  --font-family-title: 'Poppins', sans-serif;
+}
