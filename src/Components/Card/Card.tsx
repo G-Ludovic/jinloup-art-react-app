@@ -1,4 +1,9 @@
-function Card({ specie, image }) {
+interface CardProps {
+  specie: string;
+  image: string;
+}
+
+function Card({ specie, image }: CardProps) {
   return (
     <figure>
       <img src={image} alt="animaux" />
