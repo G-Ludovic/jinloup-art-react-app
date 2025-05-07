@@ -1,13 +1,12 @@
 header {
-  background-color: #e8e9e8;
+  background-color: var(--background-color-primary);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
+  padding-bottom: 16px;
 
   img {
     height: 200px;
-    margin-bottom: 16px;
   }
 }
 
@@ -15,13 +14,20 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  gap: 1rem;
+  gap: 16px;
+  font-size: 1.3rem;
 
   a {
-    border: 1.2px solid black;
+    background-color: var(--background-color-secondary);
     text-decoration: none;
-    color: black;
+    color: var(--primary-color);
     padding: 16px;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: var(--color-hover);
   }
 }
 
@@ -30,19 +36,31 @@ nav {
 @media (min-width: 768px) {
   header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    padding: 0;
 
     img {
       margin: 0;
+    }
+
+    nav {
+      padding-right: 16px;
+      font-family: var(--font-family-link);
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      flex: 1;
+      /* Chaque <a> prend la même part de d'espace disponible */
     }
   }
 }
 
 @media (max-width: 768px) {
-  .banner-header {
+  header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0;
   }
 }
