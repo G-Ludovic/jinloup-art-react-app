@@ -4,8 +4,8 @@ import "./HomePage.css";
 function HomePage() {
   return (
     <main>
-      <Card />
-      <Card />
+      <Card specie="Loup" />
+      <Card specie="Husky" />
     </main>
   );
 }
