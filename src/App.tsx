@@ -1,10 +1,11 @@
 import Header from "./Components/Header/Header";
+import HomePage from "./pages/HomePage/HomePage";
 
 function App() {
   return (
     <>
       <Header />
-      <h1>Je suis dans le composant App</h1>
+      <HomePage />
     </>
   );
 }
