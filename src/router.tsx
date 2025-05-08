@@ -3,6 +3,7 @@ import App from "./App";
 import HomePage from "./pages/HomePage/HomePage";
 import GalleryPage from "./pages/GalleryPage/GalleryPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
+import AuthorPage from "./pages/AuthorPage/AuthorPage";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         element: <ContactPage />,
         path: "/contact",
+      },
+      {
+        element: <AuthorPage />,
+        path: "/author",
       },
     ],
   },
