@@ -14,7 +14,8 @@ body {
   --background-color-main: #c3dac9;
   --primary-color: #0D2013;
   --secondary-color: #2C5A3A;
-  --color-hover: #4F7159;
+  --color-hover-primary: #4F7159;
+  --color-hover-secondary: rgb(63, 63, 63);
   --background-color-hover: #D5E7DB;
 
   /* 🖌️ Typography */
