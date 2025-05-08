@@ -20,15 +20,18 @@
 
   a {
     background-color: var(--background-color-secondary);
+    border-radius: 6px;
     text-decoration: none;
     color: var(--color-text);
     padding: 16px;
     position: relative;
-    transition: color 0.2s ease;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
   }
 
   a:hover {
     color: var(--color-hover-secondary);
+    background-color: var(--background-color-hover);
   }
 }
 
