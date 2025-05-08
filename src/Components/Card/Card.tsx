@@ -1,13 +1,13 @@
 interface CardProps {
-  specie: string;
   image: string;
+  text: string;
 }
 
-function Card({ specie, image }: CardProps) {
+function Card({ image, text }: CardProps) {
   return (
     <figure>
-      <img src={image} alt="animaux" />
-      <figcaption>{specie}</figcaption>
+      <img src={image} alt="" />
+      <article>{text}</article>
     </figure>
   );
 }

@@ -11,6 +11,7 @@ body {
   --color-text: #050315;
   --background-color-primary: #68766C;
   --background-color-secondary: #93B09C;
+  --background-color-main: #c3dac9;
   --primary-color: #0D2013;
   --secondary-color: #2C5A3A;
   --color-hover: #4F7159;
@@ -19,4 +20,5 @@ body {
   /* 🖌️ Typography */
   --font-family-link: 'Raleway', sans-serif;
   --font-family-title: 'Poppins', sans-serif;
+  --font-family-text: 'Karla', sans-serif;
 }

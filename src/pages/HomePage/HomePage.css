@@ -1,25 +1,25 @@
-main {
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-}
+.home-main {
 
-main figure {
-  background-color: var(--background-color-hover);
-  height: 350px;
-  width: 300px;
-  text-align: center;
-}
+  figure {
+    background-color: var(--background-color-main);
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
 
-main figure figcaption {
-  color: var(--primary-color);
-  font-size: 2rem;
-}
+  img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
 
-main figure img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
+  article {
+    background-color: var(--background-color-hover);
+    font-family: var(--font-family-text);
+  }
+
+  p {
+    padding: 3rem 1.5rem 3rem;
+  }
 }
