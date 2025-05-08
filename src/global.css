@@ -9,6 +9,7 @@ body {
 :root {
   /* 🎨 Couleurs principales */
   --color-text: #050315;
+  --color-success: rgb(30, 145, 30);
   --background-color-primary: #68766C;
   --background-color-secondary: #93B09C;
   --background-color-main: #c3dac9;
@@ -17,6 +18,8 @@ body {
   --color-hover-primary: #4F7159;
   --color-hover-secondary: rgb(63, 63, 63);
   --background-color-hover: #D5E7DB;
+  --background-color-hoverbutton: #5a5a5a;
+  --background-color-button: #111;
 
   /* 🖌️ Typography */
   --font-family-link: 'Raleway', sans-serif;
