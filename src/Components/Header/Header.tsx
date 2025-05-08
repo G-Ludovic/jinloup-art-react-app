@@ -12,7 +12,7 @@ function Header() {
         />
       </figure>
       <nav className="header-nav">
-        <Link to="/home">Accueil</Link>
+        <Link to="/">Accueil</Link>
         <Link to="/gallery">Galerie</Link>
         <Link to="/contact">Contact</Link>
       </nav>
