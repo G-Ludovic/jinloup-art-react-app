@@ -1,16 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./global.css";
-import App from "./App.tsx";
+import { RouterProvider } from "react-router-dom";
+import router from "./router";
 
-const rootElement = document.getElementById("root");
-
-if (rootElement == null) {
-  throw new Error(`Your HTML Document must contain a <div id="root"></div>`);
-}
-
-createRoot(rootElement).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>,
 );

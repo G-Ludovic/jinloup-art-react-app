@@ -1,11 +1,11 @@
+import { Outlet } from "react-router-dom";
 import Header from "./Components/Header/Header";
-import HomePage from "./pages/HomePage/HomePage";
 
 function App() {
   return (
     <>
       <Header />
-      <HomePage />
+      <Outlet />
     </>
   );
 }
