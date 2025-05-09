@@ -26,48 +26,52 @@ const ContactPage: React.FC = () => {
   };
 
   return (
-    <div className="contact-container">
-      <h2>Contact</h2>
-      {submitted ? (
-        <p className="success-message">Merci pour votre message !</p>
-      ) : (
-        <form onSubmit={handleSubmit} className="contact-form">
-          <label>
-            Nom
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
-          </label>
+    <>
+      <h1>Contact</h1>
+      <section className="form-grid">
+        <div className="contact-container">
+          {submitted ? (
+            <p className="success-message">Merci pour votre message !</p>
+          ) : (
+            <form onSubmit={handleSubmit} className="contact-form">
+              <label>
+                Nom
+                <input
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
+              </label>
 
-          <label>
-            Email
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </label>
+              <label>
+                Email
+                <input
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                />
+              </label>
 
-          <label>
-            Message
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            />
-          </label>
+              <label>
+                Message
+                <textarea
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                />
+              </label>
 
-          <button type="submit">Envoyer</button>
-        </form>
-      )}
-    </div>
+              <button type="submit">Envoyer</button>
+            </form>
+          )}
+        </div>
+      </section>
+    </>
   );
 };
 

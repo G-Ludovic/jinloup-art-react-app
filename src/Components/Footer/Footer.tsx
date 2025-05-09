@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="banner-footer">
-      <Link to="/author">Auteur</Link>
+      <Link to="/author">À propos</Link>
       <p>&copy; Jinloup Ludo Art 2025</p>
       <figure className="grid-figure">
         <a href="https://github.com/G-Ludovic" target="blank">
