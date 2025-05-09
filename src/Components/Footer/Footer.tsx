@@ -8,10 +8,13 @@ function Footer() {
       <p>&copy; Jinloup Ludo Art 2025</p>
       <figure className="grid-figure">
         <a href="https://github.com/G-Ludovic" target="blank">
-          <img src="public/images/github-mark.svg" alt="logo GitHub" />
+          <img src="/images/github-mark.svg" alt="logo GitHub" />
         </a>
-        <a href="www.linkedin.com/in/ludovic-galicher-69ba9932a" target="blank">
-          <img src="public/images/linkedin.webp" alt="logo Linkedin" />
+        <a
+          href="https://linkedin.com/in/ludovic-galicher-69ba9932a"
+          target="blank"
+        >
+          <img src="/images/linkedin.webp" alt="logo Linkedin" />
         </a>
       </figure>
     </footer>
