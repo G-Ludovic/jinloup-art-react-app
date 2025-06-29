@@ -9,18 +9,11 @@
   width: auto;
   align-content: center;
   padding: 20px;
-  margin: 60px auto;
+  margin: 6rem auto 6rem;
   font-family: 'Poppins', sans-serif;
   color: #333;
   background-color: var(--background-color-secondary);
   border-radius: 6px;
-}
-
-.contact-container h2 {
-  color: white;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
 }
 
 .contact-form {
@@ -81,7 +74,7 @@
     width: 600px;
     align-content: center;
     padding: 20px;
-    margin: 110px auto;
+    margin: 6rem auto;
   }
 
   .success-message {
