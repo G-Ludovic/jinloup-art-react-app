@@ -2,7 +2,7 @@
 
   height: collapse;
 
-  figure {
+  .presentation-home {
     background-color: var(--background-color-main);
     width: 100%;
     text-align: center;

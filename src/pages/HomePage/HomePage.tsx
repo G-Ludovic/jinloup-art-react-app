@@ -5,7 +5,7 @@ function HomePage() {
     <>
       <h1>Bienvenue</h1>
       <main className="home-main">
-        <figure>
+        <section className="presentation-home">
           <img
             src="src/assets/img/banner-jinloup-ludo-art.webp"
             alt="Bannière du site"
@@ -23,7 +23,7 @@ function HomePage() {
               <hr />
             </p>
           </article>
-        </figure>
+        </section>
       </main>
     </>
   );
