@@ -7,7 +7,7 @@ function HomePage() {
       <main className="home-main">
         <section className="presentation-home">
           <img
-            src="src/assets/img/banner-jinloup-ludo-art.webp"
+            src="./src/assets/img/banner-jinloup-ludo-art.webp"
             alt="Bannière du site"
           />
           <article>
